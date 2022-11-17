@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+   html,body {
+    height: 100%;
+   }
+  body{
+    background: var(--color-white);
+    font-family: Roboto;
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  :root{
+    --color-bg:#061c40;
+    --color-bg-variant:#0e3069;
+    --color-primary:#1863db;
+    --color-primary-variant:rgba(77,181,255,0.4);
+    --color-white:#f2f3f5;
+    --color-black:black;
+    --color-light:rgba(255,255,255,0.6);
+    --container-width-lg:75%;
+    --container-width-md:86%;
+    --container-width-sm:90%;
+    --transition: all 400ms ease;
+  }
+
+  .redColor {
+    color: red;
+  }
+
+  .greenColor {
+    color: green;
+  }
+  
+ 

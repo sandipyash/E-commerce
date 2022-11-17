@@ -1,0 +1,156 @@
+.gallery {
+    font-family: 'Poppins', sans-serif;
+      background: var(--color-bg);
+      color: var(--color-white);
+}
+
+.gallery-heading {
+    text-align: center;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.image-t{
+    display:inline-block;
+    transition: var(--transition);
+    padding: 1.2rem;
+  }
+  
+  .image-t:hover{
+    background-color: #629af5;
+    opacity:0.5;
+  }
+
+.t1{
+    height: 120px;
+    width:120px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-top:50px;
+   
+  }
+
+  .name-t1{
+    margin-left:10px;
+    color:var(--color-primary)
+  }
+
+  .name-t1:hover{
+    color:var(--color-white);
+  }
+
+  .about-t1{
+     margin-left: 10px;
+  }
+
+  .t2{
+    height: 120px;
+    width:120px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-top:50px;
+   
+  }
+
+  .name-t2{
+    margin-left: 10px;
+    color:var(--color-primary)
+  }
+
+  .name-t2:hover{
+    color:var(--color-white);
+  }
+
+  .about-t2{
+     margin-left: 10px;
+  }
+
+  .t3{
+    height: 120px;
+    width:120px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-top:50px;
+   
+  }
+
+  .name-t3{
+    margin-left: 10px;
+    color:var(--color-primary)
+  }
+
+  .name-t3:hover{
+    color:var(--color-white);
+  }
+
+  .about-t3{
+     margin-left: 10px;
+  }
+
+  .t4{
+    height: 120px;
+    width:120px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-top:50px;
+   
+  }
+
+  .name-t4{
+    margin-left: 10px;
+    color:var(--color-primary)
+  }
+
+  .name-t4:hover{
+    color:var(--color-white);
+  }
+
+  .about-t4{
+     margin-left: 10px;
+  }
+
+  .t5{
+    height: 120px;
+    width:120px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-top:50px;
+   
+  }
+
+  .name-t5{
+    margin-left: 10px;
+    color:var(--color-primary)
+  }
+
+  .name-t5:hover{
+    color:var(--color-white);
+  }
+
+  .about-t5{
+     margin-left: 10px;
+  }
+

@@ -1,0 +1,72 @@
+.products-heading {
+    width: 15vw;
+    text-align: center;
+    font: 500 1.5vmax "Roboto";
+    margin: 2vmax auto;
+    padding: 2vmax;
+    color: var(--color-bg);
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5vmax;
+    justify-content: center;
+}
+
+.paginationBox {
+    display: flex;
+    justify-content: center;
+    margin: 6vmax;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-item {
+    border: 1px solid rgba(0,0,0,0.178);
+    padding: 1vmax 1.5vmax;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.page-item:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.page-item:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.page-link {
+    font: 400 0.9vmax "Roboto";
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.page-item:hover {
+    background-color: var(--color-white);
+}
+
+.page-item:hover .page-link {
+    color: var(--color-bg);
+}
+
+.pageItemActive {
+    background-color: rgb(236, 52, 20);
+}
+
+.pageLinkActive {
+    color: var(--color-white);
+}
+
+.filter-box {
+    width: 10vmax;
+    position: absolute;
+    top: 10vmax;
+    left: 4vmax;
+}
